@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 ## Calculates the inverse of the cahced matrix. If matrix changes then the inverse is 
 ## calculated once more. Use solve when dealing with sqare matrices.
-## tried different values at times but it an issue with singularity
+## tried different values at times but hit an issue with singularity
 ## Works with test_mat <- makeCacheMatrix(matrix(1:4, 2, 2))
 cacheSolve <- function(x, ...) {
         ## Return opposite of 'x'
